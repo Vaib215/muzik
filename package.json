@@ -1,0 +1,22 @@
+{
+  "name": "muzik",
+  "version": "1.0.0",
+  "description": "Ad-free Music Streaming Website/App",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && python app.py",
+    "start": "npm run client & npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaib215/muzik.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vaib215/muzik/issues"
+  },
+  "homepage": "https://github.com/Vaib215/muzik#readme"
+}
